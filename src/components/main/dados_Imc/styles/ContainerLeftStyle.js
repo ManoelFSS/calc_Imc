@@ -5,7 +5,6 @@ export const ContainerLefts = styled.section`
    justify-content: center;
    align-items: center;
    min-width: 300px;
-   border: solid red 1px;
 
    form{
     width: 550px;
@@ -15,6 +14,7 @@ export const ContainerLefts = styled.section`
 
    h1{
     font-size: 45px;
+    padding-top:10px;
     @media(max-width:524px){
          font-size: 30px;
     }
@@ -22,8 +22,11 @@ export const ContainerLefts = styled.section`
 
    p{
     font-size: 16px;
-    @media(max-width:402px){
+    @media(max-width:524px){
       font-size: 12px;
+    }
+    @media(max-width:400px){
+      font-size: 10px;
      
     }
    }

@@ -4,7 +4,7 @@ export const Main = styled.main`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 12vh);
+    min-height: calc(100vh - 10vh);
    
 `;
 

@@ -15,7 +15,7 @@ export const ContainerRights = styled.section`
       justify-content: center;
       flex-wrap: wrap;
       gap: 20px;
-      border: solid red 1px;
+
    }
 
    div:nth-child(1){
@@ -32,7 +32,7 @@ export const ContainerRights = styled.section`
 `;
 
 export const CardImc = styled.div`
-   max-width:250px;
+   width:250px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -44,12 +44,22 @@ export const CardImc = styled.div`
    border-radius: 20px;
    box-shadow: 1px 3px 15px #0000009e;
    text-shadow: 0px 2px 4px #000;
+
+   @media(max-width:768px){
+      max-width: 220px;
+      height:130px;
+      gap: 10px;
+   }
+   @media(max-width:652px){
+      max-width: 200px;
+   }
+
    @media(max-width:524px){
       max-width: 150px;
    }
+
    @media(max-width:402px){
       max-width: 130px;
-      height:150px;
    }
    
    img{
@@ -58,14 +68,20 @@ export const CardImc = styled.div`
       background-color: #0000004e;
       padding: 20px;
       border-radius: 50%;
-      @media(max-width:524px){
-          height: 50px;
-          width: 50px;
+      @media(max-width:1300px){
+          height: 40px;
+          width: 40px;
           padding: 10px;
       }
    }
 
    h2{
     font-size: 14px;
+   
    }
+  
+   p{
+      font-size: 11px;
+   }
+  
 `;

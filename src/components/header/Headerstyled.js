@@ -8,13 +8,15 @@ export const Headers = styled.header`
 
 export const Container = styled.header`
 
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     align-items: center;
-
   
     img{
-        height: 8vh;
+        height:100px;
+        @media(max-width:1100px){
+         height:60px;
+        }
     }
 
 `;
