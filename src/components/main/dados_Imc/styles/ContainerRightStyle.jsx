@@ -76,12 +76,13 @@ export const CardImc = styled.div`
    }
 
    h2{
-    font-size: 14px;
+    font-size: 15px;
    
    }
   
    p{
-      font-size: 11px;
+      font-size: 13px;
+      font-weight: 600;
    }
   
 `;

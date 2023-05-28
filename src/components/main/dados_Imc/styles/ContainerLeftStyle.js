@@ -9,7 +9,7 @@ export const ContainerLefts = styled.section`
    form{
     width: 550px;
     min-width: 300px;
-    padding: 0px 10px;
+    padding: 0px 10px 10px;
    }
 
    h1{
