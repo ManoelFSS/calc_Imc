@@ -8,7 +8,7 @@ export const Headers = styled.header`
 
 export const Container = styled.header`
 
-    min-height: 10vh;
+    min-height: 100px;
     display: flex;
     align-items: center;
   
