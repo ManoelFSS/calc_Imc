@@ -5,8 +5,8 @@ import Up from '../../assets/up.png'
 import Seta from '../../assets/seta.png'
 
 export default function MAin(){
-    const [altura, setAltura] = useState(null)
-    const [peso, setPeso] = useState(null)
+    const [altura, setAltura] = useState('')
+    const [peso, setPeso] = useState('')
     const [imc, setImc] = useState(null)
     const [imcResult, setimcResult] = useState(null)
     const [model,setmodel] = useState('')
@@ -89,7 +89,7 @@ export default function MAin(){
             setBackColor('#ff0000')
         }
 
-        if(altura !== '' &&  peso !== ''){
+        if(altura != '' &&  peso != ''){
             setmodel('flex')
         }
      

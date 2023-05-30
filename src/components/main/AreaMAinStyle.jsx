@@ -231,6 +231,7 @@ export const Modal = styled.section`
       height: 102%;
       background-color: #002333;
       position: relative;
+   
 
       @media(max-width:1374px){
          width: 100%;
