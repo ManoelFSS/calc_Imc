@@ -110,13 +110,13 @@ export default function MAin(){
                                     IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
                                 </p>
                                 <section className='inputArea'>
-                                    <input type="text" id='altura' placeholder='Digite sua Altura Ex: 1.5 (em Metros)' required 
+                                    <S.Input type="text" id='altura' placeholder='Digite sua Altura Ex: 1.5 (em Metros)' required 
                                        value={altura}  onChange={(e)=> hendleAltura(e.target.value)} 
                                     />
                                     <label htmlFor="altura">Altura</label>
                                 </section>
                                 <section  className='inputArea'>
-                                    <input type="text" id='peso'  placeholder='Digite seu Peso Ex: 70.5 (em Kg)' required
+                                    <S.Input type="text" id='peso'  placeholder='Digite seu Peso Ex: 70.5 (em Kg)' required
                                        value={peso} onChange={(e)=> hendlePeso(e.target.value)} 
                                     />
                                     <label htmlFor="peso">Peso</label>
